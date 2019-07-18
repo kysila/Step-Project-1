@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-a, p, h1 {
+a, p, h1, h2, li {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,6 +13,45 @@ a, p, h1 {
 .container {
     margin: 0 auto;
     width: 1160px;
+}
+
+/* Общий стиль для всех заголовков h2 */
+
+.section-title {
+    margin-top: 82px;
+    margin-bottom: 41px;
+    font-size: 36px;
+    color: rgb(78, 78, 78);
+    text-align: center;
+}
+
+/* Стили линий под каждым заголовком */
+
+.line {
+    margin: 0 auto 70px;
+    width: 76px;
+    height: 1px;
+    position: relative;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -6px;
+    width: 76px;
+    height: 1px;
+    background-color: #18cfab;
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 76px;
+    height: 1px;
+    background-color: #18cfab;
 }
 
 .header {
@@ -218,4 +257,66 @@ h1  {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* Секция с табами */
+
+.tabs-caption {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.tabs-caption li {
+    margin-left: -1px;
+    width: 192px;
+    height: 73px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 73px;
+    color: #959697;
+    background-color: #f8fcfe;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+}
+
+.tabs-caption li:hover {
+    position: relative;
+    background-color: #18cfab;
+    border: 1px solid #18cfab;
+    color: #ffffff;
+}
+
+.tabs-caption li:hover::after {
+    content: '';
+    position: absolute;
+    top: 73px;
+    left: calc(50% - 14px);
+    border: 14px solid transparent;
+    border-top: 14px solid #18cfab;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-content > img {
+    width: 194px;
+    height: 139px;
+}
+
+.tab-content p {
+    width: 937px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #777777;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
 
