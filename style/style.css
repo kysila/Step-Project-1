@@ -161,5 +161,61 @@ h1  {
     background-color: #00cbf6;
 }
 
+/* ABOUT SECTION */
 
+.about {
+    display: flex;
+}
+
+.about-box {
+    width: 25%;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #18cfab;
+    color: #ffffff;
+    border-top: 7px solid white;
+}
+
+.about-box:nth-child(odd) {
+    background-color: #1c2a33;
+    border-top: 7px solid #18cfab;
+    color: #18cfab;
+}
+
+.about-box:nth-child(add) > .desc {
+    color: #18cfab;
+}
+
+.about-icon1 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/about-icon-1.png) center center no-repeat;
+}
+.about-icon2 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/about-icon-2.png) center center no-repeat;
+}
+
+.about-icon3 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/about-icon-3.png) center center no-repeat;
+}
+
+.about-icon4 {
+    width: 100px;
+    height: 100px;
+    background: url(../img/about-icon-4.png) center center no-repeat;
+}
+
+.desc {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
