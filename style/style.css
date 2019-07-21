@@ -611,7 +611,7 @@ h1  {
 .team {
     height: 851px;
     position: relative;
-    background: url('../img/mountain.png') center center no-repeat;
+    background: url('../img/mountain.png') fixed center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
