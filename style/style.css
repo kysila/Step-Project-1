@@ -606,6 +606,8 @@ h1  {
     color: #18cfab;
 }
 
+/* SECTION TEAM */
+
 .team {
     height: 851px;
     position: relative;
@@ -620,7 +622,7 @@ h1  {
     position: absolute;
     left: 0;
     top: 0;
-    background: url("../img/transparent-bg2.png") center center no-repeat;
+    background: url("../img/transparent-bg2.png") center center;
     opacity: .5;
 }
 
@@ -793,5 +795,44 @@ h1  {
    transform: translateY(-10px);
 }
 
+/* SECTION GALLERY */
+
+.gallery {
+    padding-bottom: 81px;
+}
+
+.gallery-container {
+    margin: 0 auto;
+    width: 1160px;
+    height: 945px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-img {
+    margin-bottom: 19px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 108px;
+    background-color: #22353f;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #9b9e9f;
+    line-height: 108px;
+}
+
+.footer a {
+    text-decoration: none;
+}
 
 
