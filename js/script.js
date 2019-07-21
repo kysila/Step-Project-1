@@ -4,16 +4,16 @@ $('.tabs-title li').click(function () {
    $('.tab-content').removeClass('tab-active').eq(tabContent).addClass('tab-active');
 });
 
-$('.more').click(function () {
+$('#btn').click(function () {
     $('.work-img').removeClass('hide');
-    $('.more').addClass('hide');
+    $('#btn').addClass('hide');
 });
 
 $('.all').click(function () {
     $('.tabs-images li').removeClass('img-active');
     $(this).addClass('img-active');
     $('.work-img').removeClass('hide');
-    $('.more').addClass('hide');
+    $('#btn').addClass('hide');
 });
 
 $('.graphic').click(function () {
@@ -21,7 +21,7 @@ $('.graphic').click(function () {
     $(this).addClass('img-active');
     $('.work-img').addClass('hide');
     $('.graph').removeClass('hide');
-    $('.more').addClass('hide');
+    $('#btn').addClass('hide');
 });
 
 $('.web-design').click(function () {
@@ -29,7 +29,7 @@ $('.web-design').click(function () {
     $(this).addClass('img-active');
    $('.work-img').addClass('hide');
    $('.web').removeClass('hide');
-    $('.more').addClass('hide');
+    $('#btn').addClass('hide');
 });
 
 $('.landing-page').click(function () {
@@ -37,7 +37,7 @@ $('.landing-page').click(function () {
     $(this).addClass('img-active');
     $('.work-img').addClass('hide');
     $('.lp').removeClass('hide');
-    $('.more').addClass('hide');
+    $('#btn').addClass('hide');
 });
 
 $('.wordpress').click(function () {
@@ -45,7 +45,7 @@ $('.wordpress').click(function () {
     $(this).addClass('img-active');
     $('.work-img').addClass('hide');
     $('.wp').removeClass('hide');
-    $('.more').addClass('hide');
+    $('#btn').addClass('hide');
 });
 
 // CAROUSEL!!!
